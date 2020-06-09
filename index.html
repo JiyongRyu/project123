@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <script script type="text/javascript" src="app.js" defer></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>ToDo List</h1>
+        </div>
+        <input class="input-todo" type="text" placeholder="Type Todo & Press Button">
+        <button class="input">ADD</button>
+
+        <ul class="nav">
+            <li id="all" class="active">All</li>
+            <li id="active">Active</li>
+            <li id="completed">Completed</li>
+        </ul>
+
+        <ul class="todo_list">
+        </ul>
+
+        <div class="footer">
+            <div class="complete-all">
+                <input class="custom-checkbox" type="checkbox" id="ck-complete-all">
+                <label for="ck-complete-all">Complete All</label>
+            </div>
+
+            <div class="clear-completed">
+                <button class="btn">Clear completed (<span class="completed-todos">0</span> <span> completed
+                    </span>)</button>
+                <strong class="active-todos">0</strong>
+                <span>left</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
